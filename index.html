@@ -7,7 +7,8 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="/assets/style.css">
+<!-- แก้ตรงนี้ -->
+<link rel="stylesheet" href="assets/style.css">
 
 </head>
 
@@ -16,8 +17,9 @@
 <div class="navbar">
     <div class="logo">ขนมไทย TRE</div>
     <div class="nav-links">
-        <a href="#">หน้าแรก</a>
-        <a href="/cart">ตะกร้า (<span id="cart-count">0</span>)</a>
+        <a href="index.html">หน้าแรก</a>
+        <!-- แก้ตรงนี้ -->
+        <a href="cart.html">ตะกร้า (<span id="cart-count">0</span>)</a>
     </div>
 </div>
 
@@ -33,7 +35,8 @@
     <div class="products">
 
         <div class="card">
-            <img src="/b861b2c32a3a967c.png" alt="ข้าวเหนียวมะม่วง">
+            <!-- แก้ตรงนี้ -->
+            <img src="b861b2c32a3a967c.png" alt="ข้าวเหนียวมะม่วง">
             <div class="card-body">
                 <h3>ข้าวเหนียวมะม่วง</h3>
                 <p class="desc">ข้าวเหนียวมูนหอมมัน เสิร์ฟพร้อมมะม่วงสุกหวานฉ่ำ</p>
@@ -45,22 +48,22 @@
         </div>
 
         <div class="card">
-            <img src="3579e9ffeeb79fa3.png" alt="กล้วยบวชชีน้ำกะทิ">
+            <img src="3579e9ffeeb79fa3.png" alt="ทุเรียนกวน">
             <div class="card-body">
                 <h3>ทุเรียนกวน</h3>
                 <div class="price">฿80</div>
-                <button class="btn" onclick="addToCart('กล้วยบวชชีน้ำกะทิ',80)">
+                <button class="btn" onclick="addToCart('ทุเรียนกวน',80)">
                     เพิ่มลงตะกร้า
                 </button>
             </div>
         </div>
 
         <div class="card">
-            <img src="36b29e58af7db7d3.png" alt="ทองหยิบทองหยอด">
+            <img src="36b29e58af7db7d3.png" alt="ทองหยิบทองหยอดฝอยทอง">
             <div class="card-body">
                 <h3>ทองหยิบทองหยอดฝอยทอง</h3>
                 <div class="price">฿150</div>
-                <button class="btn" onclick="addToCart('ทองหยิบทองหยอด',150)">
+                <button class="btn" onclick="addToCart('ทองหยิบทองหยอดฝอยทอง',150)">
                     เพิ่มลงตะกร้า
                 </button>
             </div>
